@@ -1,3 +1,3 @@
 FROM alpine:latest
 
-CMD ["bin/ash"]
+RUN apk update
